@@ -11,3 +11,6 @@
 # install
 `npm install`
 - Run with this above command
+
+# Screenshots
+![Fixtures Demo](https://i.postimg.cc/FKyKDbdY/fixture-demo.png)
