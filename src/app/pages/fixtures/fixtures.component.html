@@ -1,0 +1,17 @@
+<app-header></app-header>
+<br/>
+<div class="search-container">
+  <form class="search-form" [formGroup]="fixtureForm">
+    <mat-form-field class="text-search" appearance="fill">
+      <input matInput placeholder="Search" formControlName="searchInput" >
+      <button mat-button *ngIf="fixtureForm.value.searchInput" matSuffix mat-icon-button aria-label="Clear" (click)="resetData()">
+        <mat-icon>close</mat-icon>
+      </button>
+      <button mat-button *ngIf="!fixtureForm.value.searchInput" matSuffix mat-icon-button>
+        <mat-icon>search</mat-icon>
+      </button>
+    </mat-form-field>
+  </form>
+
+  <app-fixtures-list></app-fixtures-list>
+</div>
