@@ -10,7 +10,10 @@
 
 # install
 `npm install`
-- Run with this above command
+- install the dependencies for this application
+
+# run
+`npm start`
 
 # Screenshots
 ![Fixtures Demo](https://i.postimg.cc/FKyKDbdY/fixture-demo.png)
